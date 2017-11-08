@@ -2,10 +2,10 @@ var gProjs = [{
     "id": "sokoban game",
     "name": "Sokoban game",
     "title": "Better push those boxes",
+    "link": "https://ofirmoss.github.io/sokoban-game/index.html",
     "desc": "lorem ipsum lorem ipsum lorem ipsum",
     "publishedAt": 1448693940000,
     "labels": ["Matrixes", "keyboard events"],
-
   },
   {
     "id": "minesweeper game",
@@ -138,7 +138,7 @@ function initPage() {
                     '<li>Date: January 2017</li>'+
                     '<li>Client: Threads</li>'+
                     '<li>Category: Illustration</li>'+
-                    '<li> <a href="../'+gProjs[i].id+'/'+gProjs[i].id+' index.html">Link</a></li>'+
+                    '<li> <a href="'+gProjs[i].link+'">Link</a></li>'+
                   '</ul>'+
                   '<button class="btn btn-primary" data-dismiss="modal" type="button">'+
                       '<i class="fa fa-times"></i>'+
