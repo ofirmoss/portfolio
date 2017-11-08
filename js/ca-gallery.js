@@ -35,8 +35,8 @@ var gProjs = [{
 
   },
   {
-    "id": "in-picture",
-    "name": "in-picture",
+    "id": "book-shop",
+    "name": "book-shop",
     "title": "Better push those boxes",
     "desc": "lorem ipsum lorem ipsum lorem ipsum",
     "publishedAt": 1448693940000,
