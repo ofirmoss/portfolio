@@ -28,10 +28,10 @@ var gProjs = [{
 
   },
   {
-    "id": "guessme",
-    "name": "guessme",
+    "id": "guess-me",
+    "name": "guess-me",
     "title": "Better push those boxes",
-    "link": 'https://ofirmoss.github.io/GuessMe/index.html',
+    "link": 'https://ofirmoss.github.io/guessme/index.html',
     "desc": "lorem ipsum lorem ipsum lorem ipsum",
     "publishedAt": 1448693940000,
     "labels": ["Matrixes", "keyboard events"],
