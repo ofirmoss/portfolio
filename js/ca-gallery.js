@@ -28,8 +28,8 @@ var gProjs = [{
 
   },
   {
-    "id": "GuessMe",
-    "name": "GuessMe",
+    "id": "guessme",
+    "name": "guessme",
     "title": "Better push those boxes",
     "link": 'https://ofirmoss.github.io/GuessMe/index.html',
     "desc": "lorem ipsum lorem ipsum lorem ipsum",
