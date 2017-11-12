@@ -59,8 +59,6 @@ var gProjs = [{
   }
 ];
 
-var a;
-
 (function ($) {
   "use strict"; // Start of use strict
 
