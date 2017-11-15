@@ -9,7 +9,7 @@ var gProjs = [{
   },
   {
     "id": "minesweeper game",
-    "name": "minesweeper game",
+    "name": "minesweeper",
     "title": "Better push those boxes",
     "link": '',
     "desc": "lorem ipsum lorem ipsum lorem ipsum",
@@ -114,8 +114,8 @@ function initPage() {
       '<img class="img-fluid border1" src="img/portfolio/' + gProjs[i].id + '.jpg" alt="">' +
       '</a>' +
       '<div class="portfolio-caption border2">' +
-      '<h4>' + gProjs[i].id + '</h4>' +
-      '<p class="text-muted">Click for modal</p>' +
+      '<h4>' + gProjs[i].name + '</h4>' +
+      '<p class="text-muted">Click for details</p>' +
       '</div>' +
       '</div>'
 
