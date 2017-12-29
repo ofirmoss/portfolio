@@ -101,8 +101,8 @@ body {
 .offcanvas-btn {
   z-index: 100000;
   position: fixed;
-  top: 8%;
-  left: 3%;
+  bottom: 10%;
+  right: 3%;
   height: 50px;
   width: 50px;
   background: #4AD478;
@@ -113,6 +113,12 @@ body {
   cursor: pointer;
   margin-left: 0;
   transition: all 0.3s ease; }
+
+  @media(max-width:700px){
+    .offcanvas-btn {
+      top: 0%;
+    }
+  }
 
 .offcanvas-btn-open {
   margin-left: 30vw; }
@@ -649,6 +655,13 @@ ul.social-buttons {
     color: #3ACF6B;
     background-color: white; }
 
+    .times{
+      display: flex;
+      flex-direction: row-reverse;
+      padding: 1px;
+    }
+
+
     
 @media (max-width:600px) 
 {
@@ -661,7 +674,7 @@ ul.social-buttons {
     }
     .times{
       position: absolute;
-      right: 2vw;
+      left: 2vw;
       top: 10vw;
       font-size: 30px;
     }
